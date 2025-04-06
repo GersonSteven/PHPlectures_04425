@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+</head>
+<body>
+   <header>
+      <h1>Ejemplo de formulario.</h1>
+   </header>
+   <main>
+      <div>
+         <h2>Escribe tu comentario</h2>
+         <form action="/submit" method="post">
+            <label for="name">Nombre:</label><br>
+            <input type="text" id="name" name="name" required><br><br>
+    
+            <label for="email">Email:</label><br>
+            <input type="email" id="email" name="email" required><br><br>
+    
+            <label for="message">Mensage:</label><br>
+            <textarea id="message" name="message" rows="4" cols="40"></textarea><br><br>
+    
+            <input type="submit" value="Send">
+      </div>
+   </main>
+</body>
+</html>
